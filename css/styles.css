@@ -265,7 +265,7 @@ body {
     letter-spacing: var(--two);
     text-transform: capitalize;  
     color: var(--dark);   
-    padding-bottom: 8px;  
+    margin-bottom: 8px;  
 }
 
 
@@ -338,7 +338,7 @@ body {
 
 
 .team-text {
-    margin: 32px 16px;
+    padding: 32px 16px;
 }
 
 
@@ -498,12 +498,7 @@ body {
     list-style:none;
     display: flex;
     flex-wrap: wrap;
-    gap:24px;
-    width:1128px;
-}
-
-.project-list:not(:last-child) {
-    margin-bottom: 48px;
+    gap:48px 24px;
 }
 
 .project-item {
